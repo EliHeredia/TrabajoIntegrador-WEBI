@@ -1,0 +1,39 @@
+body {
+    
+    background-image: url(/img/fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+
+}
+h1{
+    color: black;
+    font-size: 50px;
+    font-family:monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+ul li{
+    display: inline-block;
+    padding: 0xp 40px;
+    background-color:rgb(249, 221, 183);
+    background-size: contain;
+    
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:grey;
+}
