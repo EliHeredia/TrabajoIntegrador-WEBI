@@ -1,39 +1,36 @@
 body {
     
-    background-image: url(/img/fondo1.jpg);
+    background-image: url(img/fondo1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight: bold;
 
-}
-h1{
-    color: black;
-    font-size: 50px;
-    font-family:monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-ul li{
-    display: inline-block;
-    padding: 0xp 40px;
-    background-color:rgb(249, 221, 183);
-    background-size: contain;
-    
-
-}
 a{
-    color: black;
     text-decoration: none;
+    color: white;
+
 }
-a:hover{
-    color:grey;
+header {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 15px;
+
+}
+.logo {
+    display: flex;
+    
+}
+.logo img{
+    height:100px;
+    
+}
+nav a{
+    font-weight: 600;
+    padding-right: 15px;
+    font-size: 20px;
 }
