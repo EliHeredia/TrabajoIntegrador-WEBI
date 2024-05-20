@@ -1,0 +1,37 @@
+body {
+    
+    background-image: url(img/fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+header {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 15px;
+
+}
+.logo {
+    display: flex;
+    
+}
+.logo img{
+    height:80px;
+    
+}
+nav a{
+    font-weight: 0;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
