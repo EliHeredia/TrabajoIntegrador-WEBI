@@ -36,19 +36,26 @@ nav a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .contenido{
-    width: 1200px;
+    width: 1350px;
     height: 600px;
     background-image: url(portada.jpg);
     background-size: cover;
     margin: auto;
     text-align: center;
     border-radius: 20px;
+    
 }
 .contenido h1{
     font-size: 60px;
     font-weight: 300;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.contenido.titulo2{
-   padding-top: 100px;
+.titulo2{
+    width: 1300px;
+    height: 100px;
+    
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 350px;
+
 }
