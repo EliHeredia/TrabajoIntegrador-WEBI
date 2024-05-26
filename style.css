@@ -51,11 +51,16 @@ nav a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .titulo2{
-    width: 1300px;
-    height: 100px;
-    
+    width: 1350px;
+    height: 150px;
+    background-color: aliceblue;
     opacity: 0.8;
     text-align: center;
     margin-top: 350px;
 
+}
+.boton a{
+    text-align: right;
+    background-color: aliceblue;
+    color: black;
 }
