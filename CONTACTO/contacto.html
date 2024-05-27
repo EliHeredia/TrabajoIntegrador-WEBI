@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title> CONTACTO</title>
+  <meta charset="UTF-8">
+  <title>CONTACTO</title>
   <link rel="stylesheet" href="contacto.css">
 </head>
 <body>
   <header>
-    <a class="logo" >
-        <img src="logo.png" alt="">
-
+    <a class="logo">
+      <img src="logo.png" alt="">
     </a>
     <div>
       <nav>
         <a href="../index.html" class="nav-link">INICIO</a>
         <a href="../GALERIA/productos.html" class="nav-link">PRODUCTOS</a>
         <a href="contacto.html" class="nav-link">CONTACTO</a>
-
-
       </nav>
-
     </div>
-    
   </header>
+  
   <div class="infoMayorista">
     <h1>INFORMACIÓN</h1>
     <p>VENTA MAYORISTA</p>
@@ -30,46 +27,37 @@
     <p>Envíos Rápidos y Seguros: Logística eficiente para entregas puntuales.</p>
     <p>Asistencia Personalizada: Soporte dedicado para atender todas tus necesidades y consultas.</p>
     <p>CONDICIONES:</p>
-      
     <p>Pedido Mínimo: 50 unidades por modelo.</p>
     <p>Descuento por Volumen: Descuentos escalonados según la cantidad del pedido.</p>
     <p>Envíos a todo el país: Disponibilidad de envío a toda Argentina.</p>
     <p>Métodos de Pago: Aceptamos transferencias bancarias y tarjetas de débito y crédito.</p>
-      
-    
-
   </div>
   
   <form class="contactoForm">
     <h1>CONTACTANOS</h1>
     <div>
-        <label for="nombreContacto">Nombre:</label>
-        <input type="text" id="nombreContacto" name="nombreContacto" required>
+      <label for="nombreContacto">Nombre:</label>
+      <input type="text" id="nombreContacto" name="nombreContacto" required>
     </div>
     <div>
-        <label for="correoElectronicoContacto">Correo Electrónico:</label>
-        <input type="email" id="correoElectronicoContacto" name="correoElectronicoContacto" required>
+      <label for="correoElectronicoContacto">Correo Electrónico:</label>
+      <input type="email" id="correoElectronicoContacto" name="correoElectronicoContacto" required>
     </div>
     <div>
-        <label for="mensajeContacto">Mensaje:</label>
-        <textarea id="mensajeContacto" name="mensajeContacto" required maxlength="200"></textarea>
+      <label for="mensajeContacto">Mensaje:</label>
+      <textarea id="mensajeContacto" name="mensajeContacto" required maxlength="200"></textarea>
     </div>
     <div>
-        <button type="submit">Enviar</button>
+      <button type="submit">Enviar</button>
     </div>
-</form>
-<div class="divMensaje">
-  <button class="btnAceptar">Aceptar</button>
-</div>
+  </form>
 
-<div class="datosEnviados" style="display: none;">
-  <h2>Datos Enviados:</h2>
-  <p><strong>Nombre:</strong> <span id="nombreEnviado"></span></p>
-  <p><strong>Correo Electrónico:</strong> <span id="correoEnviado"></span></p>
-  <p><strong>Mensaje:</strong> <span id="mensajeEnviado"></span></p>
-</div>
+  <div class="divMensaje" style="display: none;">
+    <div id="errores" style="display: none; color: rgb(255, 0, 0);"></div>
+    <div id="datosValidados" style="display: none; color: rgb(255, 255, 255);"></div>
+    <button class="btnAceptar">OK</button>
+  </div>
 
-<script src="validacion.js"></script>
-    
+  <script src="validacion.js"></script>
 </body>
 </html>
