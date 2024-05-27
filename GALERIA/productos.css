@@ -19,6 +19,7 @@ header {
     justify-content: space-between;
     align-items: normal;
     padding: 15px;
+    
 
 }
 .logo {
@@ -34,7 +35,9 @@ nav a{
     padding-right: 15px;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
+
 .carrousell {
     display: flex;
     align-items: center;
